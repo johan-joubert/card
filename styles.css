@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(#00C9FF, #92FE9D) ;
+    font-family: 'Lato', sans-serif;
+}
+
+#blocCard{
+    margin: 200px auto;
+    background-color: white;
+    width: 750px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+
+/* BLOC PHOTO */
+
+#blocPhoto {
+    align-self: center;
+}
+
+img {
+    width: 230px;
+    height: 250px;
+    border: 2px solid #bfc5c3;
+    border-radius: 4%;
+}
+
+/*BLOC DESCRIPTION */
+
+.far, .fas, .fab {
+    color : #41cef6;
+    font-size: 1.6em;
+}
+
+h1{
+    font-family: 'Sigmar One', cursive;
+    color: #35383a;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #bfc5c3;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#blocReseau {
+    margin: 30px 0;
+}
+
+.fab {
+    color: #8de0f2;
+    margin-right: 15px;
+    transition: 0.3s;
+
+}
+
+.fab:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    color: green;
+}
+
+@media screen and (max-width: 950px) {
+    #blocCard {
+        flex-direction: column;
+        width: 300px;
+        height: 600px;
+        margin: 20px auto;
+    }
+
+    #blocDescription {
+        align-self: center;
+    }
+}
